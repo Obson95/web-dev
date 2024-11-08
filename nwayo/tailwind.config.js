@@ -11,8 +11,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        header_color: '#001aa0',
-        footer_color: '#d30731'
+        header_color: '#d30731',
+        footer_color: '#001aa0'
       },
     },
   },
