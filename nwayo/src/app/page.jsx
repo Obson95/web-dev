@@ -1,9 +1,13 @@
 
 import Cards from './components/Cards';
+import Hero from './components/Hero';
 
 
 export default function HomePage() {
   return (
+    <>
+    {/* Hero Section */}
+    <Hero />
     <div className="flex items-center justify-center min-h-screen bg-white-100">
     <div className="bg-white shadow-2xl p-8 rounded-lg transform perspective-1000">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-16">
@@ -28,8 +32,10 @@ export default function HomePage() {
           link="/page4"
         />
       </div>
+   
     </div>
   </div>
+  </>
 );
   
 }
