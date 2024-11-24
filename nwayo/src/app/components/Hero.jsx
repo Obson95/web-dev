@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-<section className="relative custom-height flex items-center justify-center bg-white bg-footer_color text-blue-900 overflow-hidden ">
+<section className="relative custom-height flex items-center justify-center bg-white bg-header_color text-blue-900 overflow-hidden ">
   {/* Hero Content with 3D Effect and Animated Border */}
   <div className="relative z-10 max-w-xl text-center px-6 space-y-6 border-animation">
     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-shadow-blue animate-fadeInUp">

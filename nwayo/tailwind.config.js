@@ -12,7 +12,8 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         header_color: '#d30731',
-        footer_color: '#001aa0'
+        footer_color: '#001aa0',
+        search_button_color: '#001aa0'
       },
     },
   },

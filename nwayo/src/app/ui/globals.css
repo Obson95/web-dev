@@ -56,5 +56,55 @@ body {
 }
 
 .custom-height {
-  height: 55vh; 
+  height: 84vh; 
+}
+
+/*Banner*/
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-bounceIn {
+  animation: bounceIn 1s ease-out forwards;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.8s ease-out forwards;
+}
+
+.animate-slideRight {
+  animation: slideRight 0.8s ease-out forwards;
 }
